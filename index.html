@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicio Técnico de Computadoras 💻🔧</title>
+  <!-- Importando Tailwind CSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Importando fuente Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Paleta de colores personalizados */
+    .color1 { color: #5F9EA0; }
+    .bg-color1 { background-color: #5F9EA0; }
+    .color2 { color: #F0F8FF; }
+    .bg-color2 { background-color: #F0F8FF; }
+    .color3 { color: #000080; }
+    .bg-color3 { background-color: #000080; }
+    .color4 { color: #87CEEB; }
+    .bg-color4 { background-color: #87CEEB; }
+    .color5 { color: #778899; }
+    .bg-color5 { background-color: #778899; }
+  </style>
+</head>
+<body class="bg-color2">
+  <!-- Contenedor general con márgenes laterales -->
+  <div class="container mx-auto px-4">
+    
+    <!-- Header con CTA -->
+    <header class="text-center py-10">
+      <h1 class="text-4xl font-bold color1 mb-4">¡Repara y optimiza tu PC hoy! 💻✨</h1>
+      <p class="text-lg mb-6">Ofrecemos servicios técnicos de mantenimiento, reparación e instalación para computadoras, laptops y de escritorio. ¡No esperes más y mejora tu equipo!</p>
+      <a href="#contacto" class="inline-block bg-color4 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-400 transition duration-300">
+        ¡Agenda tu servicio ahora! 🚀
+      </a>
+    </header>
+
+    <!-- Sección Servicios (3 Cards) -->
+    <section id="servicios" class="py-10 bg-color2">
+      <h2 class="text-3xl font-bold text-center color1 mb-8">Nuestros Servicios Técnicos 🛠️</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="border rounded-lg shadow p-6 bg-white">
+          <h3 class="text-2xl font-semibold mb-2 color1">Mantenimiento</h3>
+          <p class="text-color5">Limpieza interna, cambio de pantallas y teclado. ¡Tu equipo en óptimas condiciones!</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="border rounded-lg shadow p-6 bg-white">
+          <h3 class="text-2xl font-semibold mb-2 color1">Instalación de Software y Hardware</h3>
+          <p class="text-color5">Configuramos y actualizamos tu sistema para un mejor rendimiento.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="border rounded-lg shadow p-6 bg-white">
+          <h3 class="text-2xl font-semibold mb-2 color1">Consultoría Técnica</h3>
+          <p class="text-color5">Asesoría experta para la optimización y solución de problemas técnicos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Quién es el Técnico -->
+    <section id="quien-es" class="py-10 bg-color3 text-white">
+      <div class="md:flex md:items-center md:gap-8">
+        <!-- Imagen del técnico -->
+        <div class="md:w-1/2 flex justify-center mb-6 md:mb-0">
+          <img src="https://via.placeholder.com/250" alt="Imagen del técnico" class="rounded-full border-4 border-white shadow-lg">
+        </div>
+        <!-- Descripción -->
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold mb-4">Conoce a tu Técnico 🔧</h2>
+          <p class="text-lg">Soy un experto en mantenimiento y reparación de computadoras, con años de experiencia y pasión por la tecnología. Estoy aquí para ayudarte a que tu equipo funcione de manera óptima y sin inconvenientes. ¡Confía en mí para darle nueva vida a tu PC!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Servicios que Ofrezco -->
+    <section id="servicios-ofrezco" class="py-10 bg-color2">
+      <h2 class="text-3xl font-bold text-center color1 mb-8">Servicios que Ofrezco 📌</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card: Mantenimiento -->
+        <div class="border rounded-lg shadow p-6 bg-white">
+          <h3 class="text-2xl font-semibold mb-2 color1">Mantenimiento</h3>
+          <p class="text-color5">Limpieza de componentes internos, cambio de pantallas y teclado para prolongar la vida útil de tu equipo.</p>
+        </div>
+        <!-- Card: Instalación -->
+        <div class="border rounded-lg shadow p-6 bg-white">
+          <h3 class="text-2xl font-semibold mb-2 color1">Instalación de Software y Hardware</h3>
+          <p class="text-color5">Instalamos y configuramos los programas y dispositivos necesarios para que tu sistema rinda al máximo.</p>
+        </div>
+        <!-- Card: Consultoría -->
+        <div class="border rounded-lg shadow p-6 bg-white">
+          <h3 class="text-2xl font-semibold mb-2 color1">Consultoría Técnica</h3>
+          <p class="text-color5">Te asesoramos en la mejora, optimización y solución de problemas técnicos de tu equipo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Preguntas Frecuentes -->
+    <section id="faq" class="py-10 bg-color3 text-white">
+      <h2 class="text-3xl font-bold text-center mb-8">Preguntas Frecuentes 🤔</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Columna 1 -->
+        <div class="space-y-4">
+          <!-- Card Pregunta 1 -->
+          <div class="border rounded-lg shadow p-4 bg-color2 text-black">
+            <h4 class="font-semibold">¿Cuánto tiempo demora el servicio? ⏰</h4>
+            <p>La mayoría de nuestros servicios se realizan en menos de 24 horas.</p>
+          </div>
+          <!-- Card Pregunta 2 -->
+          <div class="border rounded-lg shadow p-4 bg-color2 text-black">
+            <h4 class="font-semibold">¿Ofrecen garantía? ✅</h4>
+            <p>Sí, todos nuestros servicios cuentan con garantía de calidad.</p>
+          </div>
+        </div>
+        <!-- Columna 2 -->
+        <div class="space-y-4">
+          <!-- Card Pregunta 3 -->
+          <div class="border rounded-lg shadow p-4 bg-color2 text-black">
+            <h4 class="font-semibold">¿Cuánto cuesta el servicio? 💲</h4>
+            <p>Contamos con precios competitivos según el tipo de servicio y equipo.</p>
+          </div>
+          <!-- Card Pregunta 4 -->
+          <div class="border rounded-lg shadow p-4 bg-color2 text-black">
+            <h4 class="font-semibold">¿Realizan servicios a domicilio? 🏠</h4>
+            <p>Sí, ofrecemos servicio a domicilio para mayor comodidad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Precio -->
+    <section id="precio" class="py-10 bg-color2">
+      <h2 class="text-3xl font-bold text-center color1 mb-8">Precios y Beneficios 💰</h2>
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+        <!-- Texto de venta -->
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-2xl font-semibold color1 mb-4">¡La mejor inversión para tu equipo!</h3>
+          <p class="text-color5 mb-4">Con nuestros servicios técnicos, aseguras el óptimo funcionamiento de tu computadora, prolongas su vida útil y evitas costosos reemplazos. ¡No esperes a que el problema se agrave!</p>
+        </div>
+        <!-- Precio y ventajas -->
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-2xl font-semibold color1 mb-4">Desde <span class="text-3xl font-bold">$99</span></h3>
+          <ul class="mb-4 space-y-2">
+            <li class="flex items-center">
+              <span class="mr-2">✔️</span> Servicio rápido y confiable
+            </li>
+            <li class="flex items-center">
+              <span class="mr-2">✔️</span> Atención personalizada
+            </li>
+            <li class="flex items-center">
+              <span class="mr-2">✔️</span> Garantía en todos nuestros trabajos
+            </li>
+          </ul>
+          <button class="w-full bg-color4 text-white font-semibold px-4 py-2 rounded-full shadow hover:bg-blue-400 transition duration-300">
+            ¡Contrata ahora! 🚀
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contacto" class="py-10 bg-color3 text-white">
+      <h2 class="text-3xl font-bold text-center mb-8">Contáctanos 📞</h2>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+        <a href="https://wa.me/50760690148" target="_blank" class="bg-color4 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-400 transition duration-300">
+          Envíanos un WhatsApp 💬
+        </a>
+        <a href="https://www.instagram.com/softwaresymas?igsh=MTQ1Z2tsN2JxYWd2Ng==" target="_blank" class="flex items-center gap-2 bg-white text-color1 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-200 transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="#E1306C" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.17.054 1.97.24 2.43.403a4.92 4.92 0 0 1 1.675 1.092 4.92 4.92 0 0 1 1.092 1.675c.163.46.35 1.26.403 2.43.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.054 1.17-.24 1.97-.403 2.43a4.902 4.902 0 0 1-1.092 1.675 4.902 4.902 0 0 1-1.675 1.092c-.46.163-1.26.35-2.43.403-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.17-.054-1.97-.24-2.43-.403a4.902 4.902 0 0 1-1.675-1.092 4.902 4.902 0 0 1-1.092-1.675c-.163-.46-.35-1.26-.403-2.43-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.054-1.17.24-1.97.403-2.43a4.92 4.92 0 0 1 1.092-1.675A4.92 4.92 0 0 1 4.72 2.636c.46-.163 1.26-.35 2.43-.403C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.737 0 8.332.012 7.052.07 5.773.128 4.674.308 3.78.635a7.072 7.072 0 0 0-2.57 1.631A7.072 7.072 0 0 0 .635 4.78c-.327.894-.507 1.993-.565 3.272C.012 8.332 0 8.737 0 12s.012 3.668.07 4.948c.058 1.28.238 2.378.565 3.272a7.072 7.072 0 0 0 1.635 2.57 7.072 7.072 0 0 0 2.57 1.635c.894.327 1.993.507 3.272.565C8.332 23.988 8.737 24 12 24s3.668-.012 4.948-.07c1.28-.058 2.378-.238 3.272-.565a7.072 7.072 0 0 0 2.57-1.635 7.072 7.072 0 0 0 1.635-2.57c.327-.894.507-1.993.565-3.272.058-1.28.07-1.685.07-4.948s-.012-3.668-.07-4.948c-.058-1.28-.238-2.378-.565-3.272a7.072 7.072 0 0 0-1.635-2.57A7.072 7.072 0 0 0 20.22.635c-.894-.327-1.993-.507-3.272-.565C15.668.012 15.263 0 12 0z"/><path d="M12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/><circle cx="18.406" cy="5.594" r="1.44"/></svg>
+          Instagram
+        </a>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="py-6 text-center text-color5">
+      <p>&copy; 2025 Servicios Técnicos. Todos los derechos reservados. | Desarrollado por Software y Más 💻✨</p>
+    </footer>
+  </div>
+
+  <!-- JavaScript opcional para futuras interacciones -->
+  <script>
+    // Ejemplo: Mostrar un mensaje en la consola al hacer clic en el botón de contratación
+    document.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        console.log('Botón de acción clickeado!');
+      });
+    });
+  </script>
+</body>
+</html>
