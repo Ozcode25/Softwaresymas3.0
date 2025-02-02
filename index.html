@@ -67,8 +67,9 @@
     <section id="quien-es" class="py-10 bg-gray-800 rounded-lg">
       <div class="flex flex-col items-center">
         <!-- Imagen del técnico -->
+        <!-- Reemplaza la URL a continuación por la dirección de tu imagen en GitHub -->
         <div class="mb-6">
-          <img src="https://via.placeholder.com/150" alt="tecnico.png" class="rounded-full border-4 border-white shadow-lg w-32 h-32 object-cover">
+          <img src="https://raw.githubusercontent.com/softwaresymas/softwaresymas/main/mi-imagen.jpg" alt="Mi foto" class="rounded-full border-4 border-white shadow-lg w-32 h-32 object-cover">
         </div>
         <!-- Descripción -->
         <div class="max-w-md text-center">
@@ -144,7 +145,7 @@
         </div>
         <!-- Precio y ventajas -->
         <div class="bg-gray-900 p-6 rounded-lg shadow">
-          <h3 class="text-2xl font-semibold color1 mb-4">desde <span class="text-3xl font-bold">$15.00</span></h3>
+          <h3 class="text-2xl font-semibold color1 mb-4">Precios desde <span class="text-3xl font-bold">$15.00</span></h3>
           <ul class="mb-4 space-y-2">
             <li class="flex items-center">
               <span class="mr-2">✔️</span> Servicio rápido y confiable
@@ -156,9 +157,10 @@
               <span class="mr-2">✔️</span> Garantía en todos nuestros trabajos
             </li>
           </ul>
-          <button class="w-full bg-color4 text-white font-semibold px-4 py-2 rounded-full shadow hover:bg-blue-400 transition duration-300">
+          <!-- Botón que redirige a WhatsApp -->
+          <a href="https://wa.me/50760690148" target="_blank" class="block text-center w-full bg-color4 text-white font-semibold px-4 py-2 rounded-full shadow hover:bg-blue-400 transition duration-300">
             ¡Contrata ahora! 🚀
-          </button>
+          </a>
         </div>
       </div>
     </section>
@@ -179,6 +181,12 @@
           Instagram
         </a>
       </div>
+      <!-- Sección adicional para correo electrónico -->
+      <div class="mt-8 text-center">
+        <p class="text-lg">
+          O escríbenos a: <a href="mailto:softwaresymas@gmail.com" class="underline text-color4">softwaresymas@gmail.com</a>
+        </p>
+      </div>
     </section>
 
     <!-- Pie de página -->
@@ -190,12 +198,13 @@
   <!-- JavaScript opcional para futuras interacciones -->
   <script>
     // Ejemplo: Mostrar un mensaje en la consola al hacer clic en el botón de contratación
-    document.querySelectorAll('button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        console.log('Botón de acción clickeado!');
+    document.querySelectorAll('button, a').forEach(element => {
+      element.addEventListener('click', () => {
+        console.log('Elemento de acción clickeado!');
       });
     });
   </script>
 </body>
 </html>
+
 
